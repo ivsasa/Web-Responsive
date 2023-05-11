@@ -3,6 +3,14 @@
     font-family: 'Mansalva', cursive;
     /* font-family: 'Roboto', sans-serif;
     font-family: 'Source Sans Pro', sans-serif; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .fa-solid {
