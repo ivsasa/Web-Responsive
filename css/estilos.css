@@ -1,7 +1,7 @@
 /* Configuraciones globales */
 
 * {
-      padding: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -22,6 +22,7 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
 .fa-solid {
     font-size: 60px;
 }
@@ -167,7 +168,7 @@ h2::after {
     background-color: rgb(224, 252, 211);
 }
 
-.plan-content{
+.plan-content {
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
@@ -176,74 +177,124 @@ h2::after {
     text-align: center;
 }
 
-.plan-content div{
+.plan-content div {
     padding: 15px;
     border-bottom: 1px solid #e8e8e8;
 }
 
-.btn-ingresa{
+.btn-ingresa {
     color: black;
 }
 
-.btn-ingresa:hover{
+.btn-ingresa:hover {
     background-color: rgb(30, 68, 4);
     color: rgb(255, 255, 255);
     border: none;
     font-size: larger;
 }
 
-.plan-price{
+.plan-price {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
-    color:rgb(30, 68, 4) ;
+    color: rgb(30, 68, 4);
 }
 
-.plan-content ul{
+.plan-content ul {
     list-style: none;
 }
 
-.plan-content ul li{
+.plan-content ul li {
     padding: 5px 0;
 }
 
-.plan-price-discount{
+.plan-price-discount {
     color: rgb(61, 8, 8);
     font-weight: bolder;
 }
 
 /* Section - Image */
 
-.projects-images{
+.projects-images {
     list-style: none;
     width: 100%;
 }
 
-.projects-images li{
+.projects-images li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.photo{
+.photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.photo img{
+.photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
-    -webkit-transform:scale(1.15);
+    -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
 }
 
-.photo img:hover{
+.photo img:hover {
     opacity: 1;
     transform: scale(1.03);
+}
+
+/* Formulario */
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input [type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+
+}
+
+textarea {
+    height: 100%;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    display: inline-block;
+    color: black;
+    margin-right: 5px;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 2px solid black;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(194, 252, 156);
+    color: black;
+    border: none;
+    font-size: larger;
+
 }
