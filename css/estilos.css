@@ -6,12 +6,22 @@
     box-sizing: border-box;
 }
 
-.row {
-    max-width: 1140px;
-    min-height: 400px;
-    margin: 0 auto;
+/* .clearfix{
+    zoom: 1;
 }
 
+.clearfix:after{
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+} */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .fa-solid {
     font-size: 60px;
 }
@@ -92,6 +102,7 @@ header {
 }
 
 .home-container {
+    text-align: center;
     display: inline-block;
     margin-left: 50%;
     margin-top: 100px;
@@ -199,4 +210,40 @@ h2::after {
 .plan-price-discount{
     color: rgb(61, 8, 8);
     font-weight: bolder;
+}
+
+/* Section - Image */
+
+.projects-images{
+    list-style: none;
+    width: 100%;
+}
+
+.projects-images li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    -webkit-transform:scale(1.15);
+    -ms-transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover{
+    opacity: 1;
+    transform: scale(1.03);
 }
