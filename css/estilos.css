@@ -22,7 +22,6 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-
 .fa-solid {
     font-size: 60px;
 }
@@ -296,5 +295,83 @@ input[type=submit]:hover {
     color: black;
     border: none;
     font-size: larger;
+
+}
+
+/* Image footer */
+
+.section-img-footer{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(31,29,29);
+    padding: 30px;
+    font-size: 80%;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.footer-nav li a,
+.social-links li,
+.social-links li a{
+    display: inline-block;
+    margin-right:20px;
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
+}
+
+.fa-facebook{
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+}
+
+.fa-twitter:hover{
+    color: #00aced;
+}
+
+.fa-instagram:hover{
+    color: #517fa4;
+}
+
+.fa-linkedin-in:hover{
+    color: #771717;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
 
 }
